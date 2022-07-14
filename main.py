@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     try:
 
-        data = input("당신의 취향을 선택해주세요  :")
+        data = input("당신의 취향을 선택해주세요 :")
 
         df_book = load_data.load_excel()
         nm_reco = load_data.load_parameter(df_book)
