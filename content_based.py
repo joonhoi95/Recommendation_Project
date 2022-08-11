@@ -18,6 +18,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from PIL import Image
+'''파이썬하고 싶다 오우 틀렸습니다 '''
+
 warnings.filterwarnings('ignore')
 
 books = pd.read_csv('C:/Users/junho park/Desktop/Python/Reco_Engine/res/Preprocessed_data.csv')
